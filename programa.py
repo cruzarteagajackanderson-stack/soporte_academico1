@@ -1,4 +1,3 @@
-# REQUISITO 1
 def registrar_solicitud():
     codigo = input("Código de estudiante: ")
     nombre = input("Nombre del estudiante: ")
