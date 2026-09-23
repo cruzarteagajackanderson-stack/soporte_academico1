@@ -3,9 +3,18 @@ def validar_codigo(codigo):
     return codigo.strip() != "" and len(codigo.strip()) >= 6
 
 
+
 def validar_tipo_consulta(tipo):
     tipos = ["matrícula", "pagos", "constancia", "plataforma", "otro"]
     return tipo.strip().lower() in tipos
+
+
+
+def mostrar_menu():
+    print("\n===== SOPORTE ACADÉMICO =====")
+    print("1. Registrar solicitud")
+    print("2. Salir")
+
 
 
 def registrar_solicitud():
@@ -35,4 +44,4 @@ def registrar_solicitud():
     print("Descripción:", descripcion)
 
 
-registrar_solicitud()
+mostrar_menu()
