@@ -1,3 +1,4 @@
+# REQUISITO 1
 def registrar_solicitud():
     codigo = input("Código de estudiante: ")
     nombre = input("Nombre del estudiante: ")
@@ -7,7 +8,7 @@ def registrar_solicitud():
     print("\nSolicitud registrada:")
     print("Código:", codigo)
     print("Nombre:", nombre)
-    print("Tipo:", tipo)
+    print("Tipo de consulta:", tipo)
     print("Descripción:", descripcion)
 
 
